@@ -16,14 +16,13 @@ const recordSaved = document.querySelector('.recordedscore')
 // console.log(recordSaved)
 record = 0
 
-
 recordSaved.addEventListener('click',() =>{
     record += count;
     recordSaved.textContent = recordSaved.textContent + record + ' ' ;
 })
 // const recordsaved = () => {
+record = 0
 
-// }
 
 saveBtn= document.querySelector("#save-btn")
 saveBtn.addEventListener("click", save) // event listener that runs the save function on clicking the save button
